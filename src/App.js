@@ -1,17 +1,17 @@
 import AddTodoForm from "./components/AddForm";
 import TodoList from "./components/TodoList";
 import TotalCompleteItems from "./components/TotalCompleteItems";
-import {GlobalStyles} from "./globalStyles";
+import {Container, GlobalStyles} from "./globalStyles";
 
 function App() {
     return (
-        <div>
+        <Container>
             <GlobalStyles/>
             <TotalCompleteItems/>
             <AddTodoForm/>
             <TodoList/>
 
-        </div>
+        </Container>
     );
 }
 
